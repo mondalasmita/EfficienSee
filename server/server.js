@@ -13,7 +13,7 @@ const notificationsRoute = require("./routes/notificationsRoute");
 
 
 app.use(cors({
-    origin: 'https://localhost:3000',
+    origin: 'http://localhost:3000',
     credentials: true
 }));
 app.options('*', cors())
