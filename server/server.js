@@ -13,7 +13,7 @@ const notificationsRoute = require("./routes/notificationsRoute");
 
 
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://efficiensee.onrender.com',
     credentials: true
 }));
 app.use("/api/users", usersRoute);
