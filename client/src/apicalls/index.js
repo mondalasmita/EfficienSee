@@ -6,7 +6,7 @@ export const apiRequest = async (method, url, payload) => {
     const response = await axios({
       method,
       url,
-      baseURL: 'http://localhost:5000',
+      baseURL: 'https://efficiensee.onrender.com',
       data: payload,
       headers: {
         authorization: `Bearer ${localStorage.getItem("token")}`,
