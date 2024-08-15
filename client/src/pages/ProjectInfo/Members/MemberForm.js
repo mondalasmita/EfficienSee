@@ -63,7 +63,7 @@ function MemberForm({
           <select>
             <option value="">Select Role</option>
             <option value="admin">Admin</option>
-            <option value="employee">Empolyee</option>
+            <option value="employee">Empoloyee</option>
           </select>
         </Form.Item>
       </Form>
